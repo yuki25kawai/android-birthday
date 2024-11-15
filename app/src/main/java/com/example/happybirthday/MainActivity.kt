@@ -44,6 +44,11 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
+fun GreetingImage(message: String, from: String, modifier: Modifier = Modifier) {
+
+}
+
+@Composable
 fun GreetingText(message: String, from: String, modifier: Modifier = Modifier) {
     Column(
         verticalArrangement = Arrangement.Center,
